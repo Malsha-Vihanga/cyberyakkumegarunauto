@@ -15,7 +15,7 @@ ___________________________________________________________
 \033[1;34;40m     | |  | |  __/ (_| |/ ___ \  |  _ <| |_| | |\  |
 \033[1;36;40m     |_|  |_|\___|\__, /_/   \_\ |_| \_\\____/|_| \_|
 \033[1;34;40m                  |___/
-\033[1;35;40m              [+] Tool By ERROR KILLER
+\033[1;35;40m              [+] Tool By Malsha Vihanga [for Cyber Yakku]
 \033[1;32;40m___________________________________________________________
 """
 print(name, "")
@@ -26,7 +26,7 @@ try:
     auth = f.read()
     f.close 
 except:
-    wr = str(input("\033[1;0;40mPaste Your Auth here :- "))
+    wr = str(input("\033[1;0;40mPaste Your Auth here captured from your megarun spin reqest:- "))
     f = open("auth.txt", "w")
     f.write(wr)
     f.close
@@ -40,7 +40,7 @@ try:
     url1 = f.read()
     f.close
 except:
-    wr = str(input("Paste Your URL here :- "))
+    wr = str(input("Paste Your URL here captured by megarun spin reqest :- "))
     f = open("url.txt", "w")
     f.write(wr)
     f.close
@@ -77,20 +77,20 @@ def main():
         resp = str(res)
         if resp ==  <Response [204]> :
             print(bar)
-            print("\n\033[1;32;40m [+] No Data ... [+]")
+            print("\n\033[1;32;40m [+] No Data for now  ... [+]")
             print(bar)  
         elif resp ==  <Response [200]> :
             print(bar)
-            print("\n\033[1;32;40m [+] You Won Check Balance ... [+]")
+            print("\n\033[1;32;40m [+] You Won freedata  Check your data Balance ... [+]")
             print(bar)
         else:
             print(bar)
-            print("\n\033[1;31;40m [+] Check Again, I think You are Blocked User... [+]")
+            print("\n\033[1;31;40m [+] you are blocked youser or it is your connection  problem... [+]")
             print(bar)
         
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss), "Please Wait For Next request",end="")
+        print("\033[1;0;40m\n",str(ss), "Waiting  For Next request",end="")
         for i in range(180):
             
             pr = i/180*100
