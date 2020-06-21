@@ -48,16 +48,6 @@ except:
     url1 = f.read()
     f.close
 
-try:
-    import requests
-
-
-except ImportError:
-    print( %s Requests isn\ t installed, installing now. )
-    os.system( pip3 install requests )
-    print( %s Requests has been installed. )
-    os.system( clear )
-    import requests
 
 
 def main():
