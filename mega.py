@@ -9,13 +9,13 @@ bar = "\033[1;33;40m\n_________________________________________________\n"
 
 name = """\033[1;32;40m
 ___________________________________________________________
-\033[1;36;40m      __  __               _      ____        _   _
-\033[1;34;40m     |  \/  | ___  __ _   / \    |  _ \ _   _| \ | |
-\033[1;36;40m     | |\/| |/ _ \/ _` | / O \   | |_) | | | |  \| |
-\033[1;34;40m     | |  | |  __/ (_| |/ ___ \  |  _ <| |_| | |\  |
-\033[1;36;40m     |_|  |_|\___|\__, /_/   \_\ |_| \_\\___/|_| \_|
-\033[1;34;40m                  |___/
-\033[1;35;40m              [+] Tool By ERROR KILLER
+\033[1;36;40m            Cyber Yakku Megarun Automatic Bot  
+\033[1;34;40m            
+\033[1;36;40m              
+\033[1;34;40m    
+\033[1;36;40m      
+\033[1;34;40m                  
+\033[1;35;40m              [+] By MALSHA VIHANGA
 \033[1;32;40m___________________________________________________________
 """
 print(name, "")
@@ -26,7 +26,7 @@ try:
     auth = f.read()
     f.close
 except:
-    wr = str(input("\033[1;0;40mPaste Your Auth here :- "))
+    wr = str(input("\033[1;0;40mPaste  Auth here you captured from Megarun spin req :- "))
     f = open("auth.txt", "w")
     f.write(wr)
     f.close
@@ -40,7 +40,7 @@ try:
     url1 = f.read()
     f.close
 except:
-    wr = str(input("Paste Your URL here :- "))
+    wr = str(input("Paste URL here you captured from megarun data req :- "))
     f = open("url.txt", "w")
     f.write(wr)
     f.close
@@ -74,19 +74,19 @@ def main():
         resp = str(res)
         if resp == '<Response [204]>':
             print(bar)
-            print("\n\033[1;32;40m [+] No Data ... [+]")
+            print("\n\033[1;32;40m [+] Bad luck No Data Recievd try in next request . ... [+]")
             print(bar)
         elif resp == '<Response [200]>':
             print(bar)
-            print("\n\033[1;32;40m [+] You Won Check Balance ... [+]")
+            print("\n\033[1;32;40m [+] Good Luck you won free data  Check Balance ... [+]")
             print(bar)
         else:
             print(bar)
-            print("\n\033[1;31;40m [+] Check Again, I think You are Blocked User... [+]")
+            print("\n\033[1;31;40m [+] Check Your internet connection Again or I think You Blocked By the game .. [+]")
             print(bar)
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss), "Please Wait For Next request",end="")
+        print("\033[1;0;40m\n",str(ss), " Please wait ... We send next request",end="")
         for i in range(180):
 
             pr = i/180*100
